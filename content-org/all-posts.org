@@ -1,0 +1,37 @@
+#+hugo_base_dir: ../
+
+* DONE Home
+CLOSED: [2025-04-21 Mon 14:30]
+:PROPERTIES:
+:EXPORT_HUGO_SECTION: /
+:EXPORT_FILE_NAME: _index
+:END:
+
+Hello welcome to my blog, My name is Min
+
+* DONE About
+CLOSED: [2025-04-21 Mon 14:30]
+:PROPERTIES:
+:EXPORT_HUGO_SECTION: /
+:EXPORT_HUGO_MENU: :menu main
+:EXPORT_FILE_NAME: about
+:EXPORT_HUGO_WEIGHT: 10
+:END:
+
+hello this is a about page
+
+* DONE Blog
+CLOSED: [2025-04-21 Mon 14:52]
+:PROPERTIES:
+:EXPORT_HUGO_SECTION: blog
+:END:
+** DONE Blog
+:PROPERTIES:
+:EXPORT_FILE_NAME: _index
+:END:
+** DONE My first post                                      :tag1:@category1:
+CLOSED: [2025-04-21 Mon 14:21]
+:PROPERTIES:
+:EXPORT_FILE_NAME: my-first-post
+:END:
+This is my post body
