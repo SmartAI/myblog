@@ -1,45 +1,11 @@
-#+hugo_base_dir: ../
++++
+title = "Reading 专注的真相"
+author = ["Min Liu"]
+date = 2025-04-21T15:21:00-07:00
+tags = ["books", "reading"]
+draft = false
++++
 
-* DONE Home
-CLOSED: [2025-04-21 Mon 14:30]
-:PROPERTIES:
-:EXPORT_HUGO_SECTION: /
-:EXPORT_FILE_NAME: _index
-:END:
-
-Hello welcome to my blog, My name is Min
-
-* DONE About
-CLOSED: [2025-04-21 Mon 14:30]
-:PROPERTIES:
-:EXPORT_HUGO_SECTION: /
-:EXPORT_HUGO_MENU: :menu main
-:EXPORT_FILE_NAME: about
-:EXPORT_HUGO_WEIGHT: 10
-:END:
-
-hello this is a about page
-
-* DONE Blog
-CLOSED: [2025-04-21 Mon 14:52]
-:PROPERTIES:
-:EXPORT_HUGO_SECTION: blog
-:END:
-** DONE Blog
-:PROPERTIES:
-:EXPORT_FILE_NAME: _index
-:END:
-** DONE My first post                                      :tag1:@category1:
-CLOSED: [2025-04-21 Mon 14:21]
-:PROPERTIES:
-:EXPORT_FILE_NAME: my-first-post
-:END:
-This is my post body
-** DONE Reading 专注的真相                                   :books:reading:
-CLOSED: [2025-04-21 Mon 15:21]
-:PROPERTIES:
-:EXPORT_FILE_NAME: the-truth-of-attention
-:END:
 作者首先阐述了多巴胺是什么，其实多巴胺不是引起快乐的物质，而是一种引发想满足欲望的冲动，而快感本身是其他的化学物质，和多巴胺不相关。
 多巴胺很容易被劫持，比如毒品。毒品可以完全重建人体的回路系统。大脑通常有两个回路，一个是欲望回路：主要是产生想要的感觉，追求那些让自己感觉良好或者追求基本需求满足（食物、水，社交等）。也帮助自己记住那些行为带来的奖励，从而重复这些行为。多巴胺在这个回路中起着重要作用。另外一个是控制回路，负责更加高级的思考，比如计划，做决策，抑制冲动等。他是大脑的刹车和方向盘。两个回路是对抗的关系，而毒品这一类物质，完全摧毁了控制回路，强化了欲望回路。所以毒品千万不能碰，他会导致大脑遭到不可逆的摧毁。
 
@@ -62,5 +28,3 @@ CLOSED: [2025-04-21 Mon 15:21]
 式。
 
 关于工作和学习，一个比较好的建议是把工作当成学习，抱有为自己工作的mindset。在做决策的时候一定要考虑自己的专注力成本，这个成本有时候是非常巨大的。专注力是比天分智商，聪明机会这些更加宝贵的资源。
-
-
