@@ -35,7 +35,7 @@ CLOSED: [2025-04-21 Mon 14:21]
 :EXPORT_FILE_NAME: my-first-post
 :END:
 This is my post body
-** DONE Reading 专注的真相                                   :books:reading:
+** DONE Reading 《专注的真相》                               :books:reading:
 CLOSED: [2025-04-21 Mon 15:21]
 :PROPERTIES:
 :EXPORT_FILE_NAME: the-truth-of-attention

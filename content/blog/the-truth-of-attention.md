@@ -1,5 +1,5 @@
 +++
-title = "Reading 专注的真相"
+title = "Reading 《专注的真相》"
 author = ["Min Liu"]
 date = 2025-04-21T15:21:00-07:00
 tags = ["books", "reading"]
