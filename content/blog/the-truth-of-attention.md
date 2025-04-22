@@ -1,8 +1,9 @@
 +++
 title = "Reading 《专注的真相》"
-author = ["Min Liu"]
+author = ["SmartAI"]
 date = 2025-04-21T15:21:00-07:00
-tags = ["books", "reading"]
+tags = ["reading"]
+categories = ["books"]
 draft = false
 +++
 
