@@ -1,23 +1,23 @@
 +++
-title = "我的博客写作工具流-基于Emacs"
+title = "My blogging workflow: based on Emacs"
 author = ["SmartAI"]
 date = 2025-04-21T19:39:00-07:00
 tags = ["blog", "emacs", "hugo"]
 draft = false
 +++
 
-这几天放假在家决定重拾一下 `Emacs` ，索性重新配置了一遍完整的 `Emacs`  配置，包括平时的写作（ `Org` ， `LaTeX` 等）以及编程（主要是 `C++` ）。折腾完毕之后又想起自己有个闲置的域名想用起来，所以就准备搭建这个博客。其实以前一直在考虑搭建个博客，但是总是放弃了，主要原因还是没有写作的动力。周末在去 `Parksvill` 的途中看了李笑来的书[《专注力的真相》]({{< relref "the-truth-of-attention" >}})，让我觉得还是有必要加强自己的文字输出的习惯的。
+During the holiday at home these past few days, I decided to pick up `Emacs` again. So, I went ahead and completely reconfigured my `Emacs` setup, covering both my usual writing ( `Org` , `LaTeX` , etc.) and programming (mainly `C++` ). After finishing this setup tinkering, I remembered I had an unused domain name I wanted to utilize, so I decided to build this blog. Actually, I had been considering setting up a blog for a while but always gave up, mainly due to a lack of motivation for writing. Over the weekend, on the way to `Parksvill` , I read Li Xiaolai's book ["The Truth of Attention"]({{< relref "the-truth-of-attention" >}}), which made me feel it's necessary to strengthen my habit of written output.
 
 <!--more-->
 
-这篇博文就简单记录一下我是如何搭建这个工作流的，主要是设计到几个部分： `Emacs` 中的配置， `hugo` 的使用以及模板， `GitHut Page` 的使用。
+This blog post briefly documents how I set up this workflow, mainly involving several parts: configuration in `Emacs` , usage of `hugo` and its templates, and using `GitHub Pages` .
 
-我使用的是 Emacs + Hugo + Github Pages 这个组合。因为我比较习惯写 org 文档，所以我在 Emacs 写完了 org 的博客之后直接使用 `ox-hugo` 导出到 markdown 然后 push 到 Github serving 即可。这里主要参考 `ox-hugo` 的[官方文档](https://ox-hugo.scripter.co/)。
-`Emacs` 中配置主要是为了解决从 org 文件导出到 md 文件问题，我才用的是 One post per Org subtree 的方式，每一篇文章都是一个二级标题。每个一级标题都是一个单独的 section。这部分没啥好说的，根据官方文档来配置和组织自己的 org 文档就好了。需要特别注意的是 org 文件顶部需要配置 `hugo_base_dir` ，每篇文章需要配置导出的文件名称 `EXPORT_FILE_NAME` 。配置好了之后就可以用平时写 org 文档的方式写自己的博客文章了。理论上 org 支持的各种格式都是可以直接用，但是需要注意导出 markdown 的时候部分格式可能会产生非预期的行为。需要导出的时候可以使用 Emacs 中的快捷键 `C-c C-e H H` 导出到 markdown 文档。
+I am using the combination of Emacs + Hugo + Github Pages. Since I'm quite used to writing Org documents, after writing my blog posts in Org within Emacs, I directly use `ox-hugo` to export them to Markdown, and then push them to GitHub for serving. Here, I primarily referred to the `ox-hugo` [official documentation](https://ox-hugo.scripter.co/).
+The configuration in `Emacs` is mainly to handle the export from Org files to Markdown files. I adopted the 'One post per Org subtree' approach, where each article is a second-level heading. Each first-level heading represents a separate section. There isn't much to say about this part; just configure and organize your Org documents according to the official documentation. One thing to pay special attention to is that the top of the Org file needs the `hugo_base_dir` configured, and each post needs its export filename configured via `EXPORT_FILE_NAME` . Once configured, you can write your blog posts just like you normally write Org documents. Theoretically, all formats supported by Org can be used directly, but be aware that some formats might produce unexpected behavior when exporting to Markdown. When you need to export, you can use the Emacs shortcut `C-c C-e H H` to export to a Markdown document.
 
-为了使用 Hugo 生成静态网站，可以在本地安装环境和预览生成的网页。关于 Hugo 的安装可查看官方文档。这里我推荐一个非常简单的模板 [hugo-bear](https://themes.gohugo.io/themes/hugo-bearblog/) , 按照文档配置即可。配置完成后在本地运行 `hugo server` 确保本地可以成功预览网页。
+To use Hugo to generate the static site, you can install the environment locally and preview the generated web pages. For Hugo installation, refer to the official documentation. Here I recommend a very simple theme, [hugo-bear](https://themes.gohugo.io/themes/hugo-bearblog/); configure it according to its documentation. After configuration, run `hugo server` locally to ensure you can successfully preview the website.
 
-为了网站能够在线 serving，有非常多的选择。有一些付费的也有免费的方案，比如 `cloudflare` 或者 `GitHub Pages` ，我自己使用的是 `GitHub Pages` 的方式。 `GitHub Pages` 本质上是 serving 静态文件的服务。所以在这之前还需要使用 hugo 来根据 md 文件生成静态文件。由于 `GitHub` 有 `Action` 的功能，这样就很方便在我们 `Push` 代码到 `remote` 之后自动生成这个静态文件。至于 `Action` 的配置方法，我直接问了一下 `ChatGPT` ，这个脚本直接可以使用。保存这个脚本到博客代码仓库的 `.github/workflows/deploy.yml` 文件中。
+To serve the website online, there are many options. There are paid and free solutions, such as `cloudflare` or `GitHub Pages` . I personally use `GitHub Pages` . `GitHub Pages` is essentially a service for serving static files. Therefore, before that, you still need to use Hugo to generate the static files from the Markdown files. Since `GitHub` has the `Action` feature, it's very convenient to automatically generate these static files after we `Push` the code to the `remote` . As for configuring the `Action` , I directly asked `ChatGPT` , and the provided script can be used directly. Save this script to the `.github/workflows/deploy.yml` file in your blog's code repository.
 
 ```yaml
   name: Deploy Hugo site to Pages
@@ -95,20 +95,19 @@ jobs:
         uses: actions/deploy-pages@v4 #
 ```
 
-另外在需要在代码仓库的 `setting` 中开启 pages 使用 =Actions=，同时可以在里面配置自己的域名，可以参考这个截图：
+Additionally, you need to go into the repository's `setting` to enable Pages using `Actions`. You can also configure your custom domain there. Refer to this screenshot:
 ![](/images/github-page.png)
 
 
-## 总结 {#总结}
+## Summary {#summary}
 
-至此，整个流程应该是跑通了，这篇文章就是通过这个流程发布的。总结一下使用 Emacs 写 blog 几个关键步骤：
+At this point, the entire workflow should be up and running. This very article was published using this process. To summarize, here are the key steps for writing a blog using `Emacs`:
 
--   配置 ox-hugo，并且按照文档要求组织 org 文件
--   本地安装和配置 hugo 网站，包括 theme
--   配置 Github Pages，自定义域名
--   配置 Github 工作流，支持 Git Push 之后自动发布
-
-    再之后就完全可以在 Emacs 中写文字然后方便发布成在线文章了。接下来还有一些优化空间，包括使用 Org mode 的 Capture tempalte 功能来快创建文章，配置中英文不同的版本，以及一些样式等等。希望这篇文章对有同样需求的朋友有帮助，你也可以直接参考我的全部源代码：[博客源代码](https://github.com/SmartAI/myblog)
+Configure `ox-hugo` and organize your `org` files according to the documentation requirements.
+Install and configure the `hugo` site locally, including the `theme`.
+Configure `Github Pages` and set up a custom domain.
+Configure the `Github` workflow to support automatic publishing after a `Git Push`.
+After that, you can write entirely within `Emacs` and conveniently publish your text as online articles. Going forward, there is still room for optimization, including using `Org mode`'s `Capture template` feature to quickly create posts, configuring different versions for Chinese and English, and adjusting styles, etc. I hope this article is helpful for friends with similar needs. You can also directly refer to my complete source code: [Blog Source Code](https://github.com/SmartAI/myblog)
 
 
 ## References {#references}

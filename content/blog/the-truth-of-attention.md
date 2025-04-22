@@ -1,5 +1,5 @@
 +++
-title = "Reading 《专注的真相》"
+title = "Reading 《The Truth about Attention》"
 author = ["SmartAI"]
 date = 2025-04-21T15:21:00-07:00
 tags = ["reading"]
@@ -7,25 +7,24 @@ categories = ["books"]
 draft = false
 +++
 
-作者首先阐述了多巴胺是什么，其实多巴胺不是引起快乐的物质，而是一种引发想满足欲望的冲动，而快感本身是其他的化学物质，和多巴胺不相关。
-多巴胺很容易被劫持，比如毒品。毒品可以完全重建人体的回路系统。大脑通常有两个回路，一个是欲望回路：主要是产生想要的感觉，追求那些让自己感觉良好或者追求基本需求满足（食物、水，社交等）。也帮助自己记住那些行为带来的奖励，从而重复这些行为。多巴胺在这个回路中起着重要作用。另外一个是控制回路，负责更加高级的思考，比如计划，做决策，抑制冲动等。他是大脑的刹车和方向盘。两个回路是对抗的关系，而毒品这一类物质，完全摧毁了控制回路，强化了欲望回路。所以毒品千万不能碰，他会导致大脑遭到不可逆的摧毁。
+The author first explains what dopamine is. Actually, dopamine isn't the substance that causes pleasure itself, but rather one that triggers the impulse or craving to satisfy a desire. Pleasure itself is derived from other chemicals, unrelated to dopamine.
 
-然后，生活中有很多很隐蔽的类似毒品的东西，比如赌博，色情。甚至烟酒茶等。还有现在出现的各种社交媒体，短视频，游戏等都是一类东西，这些都能够剥夺人类的注意力，并且回成瘾。
+Dopamine is easily hijacked, for example, by drugs. Drugs can completely rewire the brain's circuitry. The brain typically has two circuits: one is the desire circuit, which primarily generates the feeling of 'wanting,' driving the pursuit of things that feel good or satisfy basic needs (food, water, social connection, etc.). It also helps remember the rewards associated with certain actions, encouraging their repetition. Dopamine plays a crucial role in this circuit. The other is the control circuit, responsible for higher-level thinking like planning, decision-making, and impulse control. It acts as the brain's brakes and steering wheel. These two circuits work in opposition to each other. Substances like drugs completely destroy the control circuit while strengthening the desire circuit. Therefore, drugs must absolutely be avoided, as they cause irreversible brain damage.
 
-人的时间是有限的，专注力是非常宝贵的资源。如果没有自己的专注力，而是被其他东西一直刺激，那么或者就像僵死一样，多么可悲。事实上，专注力被剥夺，会导致一系列不可逆的影响，比如易怒，焦躁，缺乏同情心，无法深入思考，拒绝使用文字等。
+Furthermore, life contains many subtle things that act similarly to drugs, such as gambling and pornography, and even things like smoking, alcohol, and tea [caffeine]. Also, the various forms of social media, short videos, and games emerging today fall into this category. These can all hijack human attention and become addictive.
 
-李笑来讲到一些和育儿相关的，对我启发还挺大的，比较认同。比如看电视。他认为电视会影响注意力，应该尽量避免，特别是对于婴幼儿。如果实在要看电视可以看一些纪录片，但是看的时候也要专注，就像在电影院看电影一样不要保持安静。
-再者就是如何解决小孩老是沉迷屏幕的问题，有很多人给出了很多建议，比如规定时间，用奖励等等。在作者看来其实根本上是需要其他的活动来占据这个注意力的时间。一个非常朴素的方法是户外活动。户外活动时间越长越好，孩子越小越是如此。运动几乎可以解决一切问题，体力是脑力的基础。学习的门槛不是天分和智商，而是体力健康和寿命。最好让孩子在十岁之前养成每天运动的习惯，比如跑步。还有一个是教会孩子编程，使用文字去创造。
+Human time is limited, and focus is an extremely valuable resource. If one lacks control over their own focus and is constantly stimulated by external things, it's like being numb or paralyzed – how tragic. In fact, the deprivation of focus can lead to a series of irreversible effects, such as irritability, anxiety, lack of empathy, inability to think deeply, and an aversion to using written language.
 
-后面作者深入探讨了不可抗拒的诱惑的来源，他的观点是价值观。这种说法我还是第一次听说，价值观反应的是一个人对待事物的自我判断，直白来说就是比较。比如健康和工作，你是如何排序的。另外还有一个排序的强度，所谓的价值观是否稳定。有的人压根没有比较过，有的人比较的时候比较含糊。这里涉及到控制回路的使用。
+Li Xiaolai [or "The author"] mentioned some points related to parenting that I found quite insightful and agree with. For example, regarding television. He believes TV affects attention and should be avoided as much as possible, especially for infants and toddlers. If watching TV is unavoidable, documentaries are a better option, but it should be watched attentively, demanding the same kind of quiet focus as one would have in a movie theater. Furthermore, regarding how to solve the problem of children being constantly engrossed in screens, many suggestions have been offered, such as setting time limits, using rewards, etc. In the author's view, the fundamental solution is to occupy that attention time with other activities. A very simple method is outdoor activity. The longer the outdoor activity time, the better, especially for younger children. Exercise can solve almost anything; physical strength is the foundation of mental capacity. The barrier to learning isn't talent or IQ, but physical health and longevity. It's best to help children develop a daily exercise habit before age ten, such as running. Another point is to teach children programming, using text (code) to create.
 
-生活中有一些东西可以加强这个回路，比如恐惧。比如医院里面的大夫，每天看到这么多因为各种原因生病的病人，无形中加强了这个回路。还有就是看书，看书就像吸星大法，短时间吸收作者长期思考沉淀的知识。
+Later, the author delves deeper into the source of irresistible temptations, arguing that it lies in one's values. This was the first time I had heard this perspective. Values reflect a person's self-judgment regarding things; put simply, it's about comparison or prioritization. For example, how do you rank health versus work? There's also the strength of this ranking – whether these so-called values are stable. Some people have never really compared them, while others are vague when they do. This involves the use of the control circuit.
 
-关于重视文字，善用文字方面，我真的太认同了。生活中有太多的人已经失去了文字的使用，特别文字的输出。文字的输出其实是一个非常好的自我思考和沉淀的过程。哪怕是数学，本质上其实是语文。语文不好的话，其实啥都不行。比如我觉得语文能够锻炼一个人的思维逻辑。结合自己的经历，上学时候学语文，完全没有思维的训练，写作文就是一堆假大空。平时用到文字输出也就写写周报，没有系统性的文字输出训练。在重新读master之后，我终于知道了自己的问题，自己的写作差距很大，其实反应的是思维方式的问题。在未来，特别是AI发展起来之后，这种自然语言的运用更加重要。
+There are things in life that can strengthen this circuit, such as fear. For instance, doctors in hospitals, seeing so many patients sick for various reasons every day, implicitly strengthen this circuit. Reading books is another way; reading allows one to rapidly absorb the author's distilled knowledge, accumulated through long periods of thought.
 
-文字的使用的一个场景是可以给自己洗脑，比如复述。这个非常有意思，因为大脑愿意相信自己产生的结果，而不是吸收别人的（比如看到或者听到）。所以洗脑的一个方法是，自己不断复述内容。这样欺骗大脑觉得这些内容是自己产生的。所以短时间内足量重复的向自己复述是真正改变自己最有效的方式，起码是之一。比如可以经常复述生活中发生的事情：看的电影、学习的知识、
+Regarding the importance and skillful use of written language, I strongly agree. Too many people in life have lost the ability to use written language effectively, especially for output (writing). Writing output is actually an excellent process for self-reflection and consolidating thoughts. Even mathematics relies heavily on language skills. If one's language skills are poor, proficiency in many areas can be hindered. For example, I believe language study can train one's logical thinking. Reflecting on my own experience, language classes in school involved no real thinking training; essay writing was just about empty, grandiose clichés. Normally, my written output was limited to weekly reports, lacking systematic writing practice. After starting my Master's degree again, I finally recognized my problem: my significant gap in writing ability actually reflects issues with my way of thinking. In the future, especially with the rise of AI, the mastery of natural language will become even more crucial.
 
-然后回到一个根本问题，既然时间（或者注意力）是非再生的有限的资源，那么我应该把这个资源投入到哪里呢。一般来说我们的日常也就是，睡眠、运动、放松、学习、工作和其他。但是很多人把顺序错了，包括我自己。睡眠和运动放松觉得是比工作和学习更加重要的。一个最简单的例子，一次睡眠质量不佳会导致接下来两三天无法好好工作。该休息的时候就不要被其他东西干扰，特别是电子产品。发呆，泡澡，晒太阳，散步，唱歌跳舞都是很好的放松方
-式。
+One application of using text is for 'brainwashing' oneself, for example, through retelling or repetition. This is very interesting because the brain tends to believe results it produces itself more than those absorbed from others (e.g., seen or heard). So, one method of influencing oneself is to constantly repeat content to oneself. This tricks the brain into thinking the content originated internally. Therefore, repeating things sufficiently to oneself over a short period is a truly effective way—or at least one effective way—to change oneself. For example, one can frequently retell events from life: movies watched, knowledge learned, etc.
 
-关于工作和学习，一个比较好的建议是把工作当成学习，抱有为自己工作的mindset。在做决策的时候一定要考虑自己的专注力成本，这个成本有时候是非常巨大的。专注力是比天分智商，聪明机会这些更加宝贵的资源。
+Then, returning to a fundamental question: since time (or attention) is a finite, non-renewable resource, where should I invest it? Generally, our daily routine consists of sleep, exercise, relaxation, learning, work, and other activities. But many people, including myself, get the priorities wrong. Sleep, exercise, and relaxation are arguably more important than work and learning. A simple example: one night of poor sleep can hinder proper work performance for the next two or three days. When it's time to rest, don't let other things interfere, especially electronic devices. Spacing out, taking a bath, sunbathing, walking, singing, and dancing are all good ways to relax.
+
+Regarding work and learning, a good suggestion is to treat work as learning, adopting a mindset of working for oneself. When making decisions, one must consider the cost to one's focus, which can sometimes be enormous. Focus is a more valuable resource than talent, IQ, cleverness, or opportunities.
