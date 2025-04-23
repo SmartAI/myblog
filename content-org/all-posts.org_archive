@@ -37,3 +37,23 @@ CLOSED: [2025-04-21 Mon 15:21]
 
 关于工作和学习，一个比较好的建议是把工作当成学习，抱有为自己工作的mindset。在做决策的时候一定要考虑自己的专注力成本，这个成本有时候是非常巨大的。专注力是比天分智商，聪明机会这些更加宝贵的资源。
 
+
+* TODO Qt What is Q_OBJECT                      :bug:qt:@development:@coding:
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-04-22 Tue 22:12
+:ARCHIVE_FILE: ~/Workspace/myblog/content-org/all-posts.org
+:ARCHIVE_OLPATH: Blog
+:ARCHIVE_CATEGORY: all-posts
+:ARCHIVE_TODO: TODO
+:END:
+
+There is a link error when I add =Q_OBJECT= macro for my class. The error message is something like: =vtable for XXX is missing, NOTE: a missing vtable usually means the first non-inline virtual member function has no definition.=. However, this error will disappear if I remove the =Q_OBJECT=.
+
+The =Q_OBJECT= is used in =Qt= that enables some mechanism in =Qt= applications, such as the =slot= and =signal=. This macro will enable the =moc= (Meta Object Compiler) to handle the class. I presume that it will generate some code and linked to the target.
+
+Even though, I have configured the =AUTOMOC= in =CMakeLists.txt=, I continuedly encountered this issue. 
+
+
+
+
+
